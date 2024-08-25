@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+/* Grid container styles */
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px;
+}
+
+/* Grid item styles */
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #000;
+    font-size: 20px;
+    cursor: pointer;
+}
